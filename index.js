@@ -12,12 +12,12 @@ app.get("/oi", (req, res) => {
 let filmes = [
     {
         titulo: "A Volta dos Que Não Foram",
-        snipose: "É um filme que trata sobre escolhas, na qual toda escolha haverá uma consequencia onde vc pode ir mesmo qeu não tenha escolhido ou não volta mais no tempo"
+        sinopse: "É um filme que trata sobre escolhas, na qual toda escolha haverá uma consequencia onde vc pode ir mesmo qeu não tenha escolhido ou não volta mais no tempo"
     },
     {
         titulo: "Star Wars: Episódio III – A Vingança dos Sith",
         sinopse: "As Guerras Clônicas estão em pleno andamento e Anakin Skywalker mantém um elo de lealdade com Palpatine, ao mesmo tempo em que luta para que seu casamento com Padmé Amidala não seja afetado por esta situação. Seduzido por promessas de poder, Anakin se aproxima cada vez mais de Darth Sidious até se tornar o temível Darth Vader. Juntos eles tramam um plano para aniquilar de uma vez por todas com os cavaleiros jedi."
-    },
+    }
 ]
 
 app.get('/filmes', (req,res) => {
